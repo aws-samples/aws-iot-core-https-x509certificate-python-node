@@ -2,13 +2,10 @@
 There are multiple options available for publishing and subscribing messages with AWS IOT Core. The message broker supports the use of the MQTT protocol to publish and subscribe and the HTTPS protocol to publish. Both protocols are supported through IP version 4 and IP version 6. The message broker also supports MQTT over the WebSocket protocol.
 
 Here is a simple table that shows various protocol and port options available for handshake with AWS IOT Core.
+<p align="center">
+<img src="/images/iotportprotocol.png">
+</p>
 
-|No |Protocol        |Authentication     |Port    |
-|---|----------------|-------------------|------- |
-| 1 |MQTT            |ClientCertificate  |8883,443|
-| 2 |HTTP            |ClientCertificate  |8443    |
-| 3 |HTTP            |SigV4              |443     |
-| 4 |MQTT+WebSocket  |SigV4              |443     |
 
 More details are available here https://docs.aws.amazon.com/iot/latest/developerguide/protocols.html
 
