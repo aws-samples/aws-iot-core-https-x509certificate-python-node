@@ -13,7 +13,7 @@ More details are available here https://docs.aws.amazon.com/iot/latest/developer
 This post covers the option #2 - ingesting to AWS IoT Core using HTTPs and X509Certificate on port 8443. The code samples are provided in NodeJs and Python, which is covered in the following sections.
 
 # 3. Python code to publish to AWS IoT Core using HTTPs protocol and X509Certificate
-Create a directory for solution called 'PythonSample'.
+Create a directory for solution called 'python samples'.
 
 Create an environment .env file at the root of the folder  with the following configuration.
 
@@ -112,7 +112,7 @@ print(data)
 Install the required python packages and execute the above code. You should see that above code is publishing messages successfully to AWS IoT core, with a HTTP Status Code of 200. You can also very that in AWS IoT console.
 
 # 4.NodeJs code to publish to AWS IoT Core using HTTPs protocol and X509Certificate
-Create a directory for solution called 'NodeSample'.
+Create a directory for solution called 'node samples'.
 
 Initialize the project and install required packages using npm.
 
