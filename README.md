@@ -225,4 +225,4 @@ post_req.on('response',function(res)
 
 ## License
 
-This library is licensed under the Apache 2.0 License. 
+This library is licensed under the MIT-O license. 
