@@ -84,7 +84,7 @@ load_dotenv(dotenv_path=env_path)
 
 certificate_file =os.getenv('devicecertificatepath')
 key_file = os.getenv('privatekeypath')
-certificate_secret= os.getenv('certificaesecret')
+certificate_secret= os.getenv('certificatesecret')
 host=os.getenv('host')
 
 resource_url=os.getenv('path')
